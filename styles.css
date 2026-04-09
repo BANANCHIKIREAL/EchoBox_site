@@ -87,15 +87,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 140px;
+    height: 70px;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: var(--spacing-sm);
-    font-weight: 700;
-    font-size: 2rem;
+    gap: var(--spacing-xs);
+    font-weight: 600;
+    font-size: 1.25rem;
     color: var(--text-primary);
 }
 
