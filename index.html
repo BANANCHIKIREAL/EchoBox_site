@@ -73,30 +73,66 @@
                     <div class="hero-visual">
                         <div class="app-preview">
                             <div class="app-window">
-                                <div class="app-header">
-                                    <div class="app-controls">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
+                                <div class="app-window-header">
+                                    <div class="app-window-title">
+                                        <div class="app-window-icon">🎵</div>
+                                        <div>
+                                            <h1>EchoBox</h1>
+                                            <p>Управляйте своей коллекцией звуков</p>
+                                        </div>
                                     </div>
-                                    <span class="app-title">EchoBox</span>
                                 </div>
-                                <div class="app-content">
-                                    <div class="app-player">
-                                        <div class="player-controls">
-                                            <button class="control-btn"></button>
-                                            <button class="control-btn play"></button>
-                                            <button class="control-btn"></button>
+                                <div class="player-panel">
+                                    <div class="player-controls-row">
+                                        <button class="player-btn add">+</button>
+                                        <button class="player-btn play">▶</button>
+                                        <button class="player-btn stop">■</button>
+                                        <button class="player-btn extra">⏺</button>
+                                        <div class="player-info">Выберите звук для воспроизведения</div>
+                                    </div>
+                                    <div class="player-progress">
+                                        <div class="progress-track">
+                                            <div class="progress-fill"></div>
                                         </div>
-                                        <div class="progress-bar">
-                                            <div class="progress"></div>
+                                        <span class="progress-time">00:00 / 00:00</span>
+                                    </div>
+                                </div>
+                                <div class="library-panel">
+                                    <div class="library-header">
+                                        <div>
+                                            <p class="library-label">Ваша библиотека</p>
+                                            <span class="library-subtitle">Плейлисты:</span>
+                                        </div>
+                                        <div class="library-buttons">
+                                            <button class="btn btn-success">+ Новый</button>
+                                            <button class="btn btn-secondary" disabled>Режим плейлиста</button>
                                         </div>
                                     </div>
-                                    <div class="sound-list">
-                                        <div class="sound-item"></div>
-                                        <div class="sound-item"></div>
-                                        <div class="sound-item active"></div>
-                                        <div class="sound-item"></div>
+                                    <div class="library-search">
+                                        <span class="search-icon">🔍</span>
+                                        <input type="text" placeholder="Поиск:" disabled>
+                                    </div>
+                                    <div class="library-table">
+                                        <div class="table-row table-header">
+                                            <span>Название</span>
+                                            <span>Длительность</span>
+                                            <span>Формат</span>
+                                        </div>
+                                        <div class="table-row">
+                                            <span>Summer Beat</span>
+                                            <span>02:15</span>
+                                            <span>WAV</span>
+                                        </div>
+                                        <div class="table-row">
+                                            <span>Silent Echo</span>
+                                            <span>03:08</span>
+                                            <span>MP3</span>
+                                        </div>
+                                        <div class="table-row">
+                                            <span>Dark Loop</span>
+                                            <span>01:42</span>
+                                            <span>OGG</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -186,10 +222,25 @@
                             <span class="requirement">Windows 10/11</span>
                             <span class="requirement">No dependencies</span>
                         </div>
-                        <button class="btn btn-primary download-btn">
+                        <a class="btn btn-primary download-btn" href="file:///C:/Users/dukav/.windsurf/EchoBox/EchoBox_v1.8.1/EchoBox.exe" download>
                             <span class="btn-icon"></span>
                             Download EXE
-                        </button>
+                        </a>
+                    </div>
+                    <div class="download-card">
+                        <div class="download-icon"></div>
+                        <h3 class="download-title">ZIP Archive</h3>
+                        <p class="download-description">
+                            Download the full archive package
+                        </p>
+                        <div class="download-requirements">
+                            <span class="requirement">Windows / macOS / Linux</span>
+                            <span class="requirement">Ready to extract</span>
+                        </div>
+                        <a class="btn btn-primary download-btn" href="file:///C:/Users/dukav/Desktop/EchoBox_v1.8.1.zip" download>
+                            <span class="btn-icon"></span>
+                            Download ZIP
+                        </a>
                     </div>
                 </div>
                 <div class="system-requirements">

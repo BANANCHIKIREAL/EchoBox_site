@@ -179,26 +179,23 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Download buttons functionality
-    const downloadBtn = document.querySelector('.download-btn');
-    if (downloadBtn) {
-        downloadBtn.addEventListener('click', function() {
-            // Simulate download
+    const downloadButtons = document.querySelectorAll('.download-btn');
+    downloadButtons.forEach(button => {
+        button.addEventListener('click', function() {
             const originalText = this.innerHTML;
             this.innerHTML = '<span class="btn-icon"></span>Downloading...';
-            this.disabled = true;
-            
+
             setTimeout(() => {
-                this.innerHTML = '<span class="btn-icon"></span>Download Complete!';
+                this.innerHTML = '<span class="btn-icon"></span>Download started';
                 this.style.background = 'var(--success-color)';
-                
+
                 setTimeout(() => {
                     this.innerHTML = originalText;
-                    this.disabled = false;
                     this.style.background = '';
-                }, 2000);
-            }, 2000);
+                }, 1200);
+            }, 500);
         });
-    }
+    });
     
     // Copy code functionality
     const codeBlocks = document.querySelectorAll('.download-steps code');
