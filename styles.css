@@ -87,21 +87,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 140px;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xs);
-    font-weight: 600;
-    font-size: 1.25rem;
+    gap: var(--spacing-sm);
+    font-weight: 700;
+    font-size: 2rem;
     color: var(--text-primary);
 }
 
 .logo-img {
-    width: 64px;
-    height: 64px;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
     margin-right: var(--spacing-xs);
 }
@@ -175,8 +175,8 @@ body {
 }
 
 .hero-logo {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
     margin-right: var(--spacing-md);
     animation: bounce 2s infinite;
@@ -829,8 +829,8 @@ body {
 }
 
 .footer-logo-img {
-    width: 48px;
-    height: 48px;
+    width: 80px;
+    height: 80px;
     object-fit: contain;
     margin-right: var(--spacing-xs);
 }
