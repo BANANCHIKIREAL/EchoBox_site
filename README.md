@@ -1,6 +1,6 @@
 # EchoBox Website
 
-Modern, responsive website for the EchoBox audio player application.
+Modern, responsive website for the EchoBox audio player application, including an app-style preview, local download options, and polished UI blocks.
 
 ## Features
 
@@ -8,6 +8,7 @@ Modern, responsive website for the EchoBox audio player application.
 - **Fully Responsive**: Works perfectly on desktop, tablet, and mobile devices
 - **Smooth Animations**: Parallax effects, hover states, and scroll animations
 - **Interactive Elements**: Functional navigation, download buttons, and copy-to-clipboard
+- **Download Options**: EXE and ZIP buttons included for local distribution flow
 - **Performance Optimized**: Debounced scroll events and efficient animations
 - **Accessibility**: Semantic HTML5 structure with proper ARIA labels
 
@@ -48,7 +49,7 @@ website/
 - Icon-based visual representation
 
 ### Download Section
-- Multiple download options
+- Multiple download options including EXE and ZIP buttons
 - System requirements display
 - Copy-to-clipboard functionality for commands
 - Interactive download simulation
